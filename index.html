@@ -461,7 +461,8 @@
 		.top-image {
 			position: absolute;
 			bottom: 50px;
-			right: 80px
+			right: 80px;
+			cursor: pointer;
 		}
 
 		footer {
@@ -793,10 +794,8 @@
 			}
 
 			li.h1-li {
-
 				padding-left: 20px;
 				display: inline-flex;
-
 				margin: 0px;
 			}
 
@@ -882,7 +881,11 @@
 			}
 
 			h1 {
-				font-size: 3vw;
+				font-size: 3.3vw;
+			}
+
+			.menu-hamburguer{
+				font-size: 3.3vw;
 			}
 
 			h2.title-quem,
@@ -1024,6 +1027,18 @@
 			div.quem-sou-eu {
 				grid-template-columns: 100%;
 			}
+
+			div.grid-faixa-contato{
+				grid-template-rows: 100px;
+			}
+
+			.faixa-contato-text, .faixa-contato-button, div.text-contatos{
+				height: 100px;
+			}
+
+			div.button-contatos{
+				margin-top: 0px;
+			}			
 
 			div.grid-faixa-contato {
 				grid-template-columns: 100%;
@@ -1207,9 +1222,9 @@
 				margin-left: 50px;
 			}
 
-			li.menu-mobile {
+			ul.menu li.menu-mobile {
 				display: list-item;
-			}
+			}			
 
 			.quem-sou-eu-li,
 			.conhecimentos-li {
