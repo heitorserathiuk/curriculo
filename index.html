@@ -796,7 +796,7 @@
 			li.h1-li {
 				padding-left: 20px;
 				display: inline-flex;
-				margin: 0px;
+				margin: 0px;				
 			}
 
 			.menu-hamburguer {
@@ -808,23 +808,24 @@
 			}
 
 			li.menu-mobile {
-				/*border: 1px solid white;*/
-				position: absolute;
+				/*border: 1px solid white;
+				position: absolute;*/
 				display: none;
 				width: 100%;
 				z-index: 98;
-				background-color: #2B45C9;
+				background-color: #2359e0;
 				padding-right: 0px;
 				padding-left: 20px;
 				text-align: left;
 				width: calc(100% - 20px);
-				line-height: 35px;
-				margin: 0px;
+				line-height: 10vw;
+				margin-top: -1px;
+    			height: 11vw;
+    			padding-top: 12px;
 			}
 
-			li.home-li {
-				padding-top: 30px;
-				top: 0px;
+			/*li.home-li {
+				position: absolute;
 			}
 
 			li.quem-sou-eu-li {
@@ -841,7 +842,7 @@
 
 			li.curriculo-li {
 				top: 150px;
-			}
+			}*/
 
 			li.contato-li {
 				padding-bottom: 30px;
@@ -884,7 +885,7 @@
 				font-size: 3.3vw;
 			}
 
-			.menu-hamburguer{
+			.menu-hamburguer,.menu-mobile{
 				font-size: 3.3vw;
 			}
 
@@ -1350,15 +1351,18 @@
 	<header>
 		<script>
 			function myFunction() {
-				var menuElements = document.querySelectorAll(".menu-mobile");
+				var menuElements = document.querySelectorAll(".menu-mobile");	
+				var h1Line = document.querySelector(".h1-li");								
 
 				for (var i = 0, len = menuElements.length; i < len; i++) {
 					if (menuElements[i].style.display === "none") {
 						menuElements[i].style.display = "list-item";
+						h1Line.style.background = "#2359e0";
 					} else {
 						menuElements[i].style.display = "none";
+						h1Line.style.background = "none";
 					}
-				}
+				}				
 			}
 		</script>
 		<img class="header-background-img" src="assets/image/homepage/header-background.png" />
