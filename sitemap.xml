@@ -7,7 +7,7 @@
 	  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
 <url>
-	<loc>https://heitorserathiuk.github.io/curriculo/</loc>
+	<loc>https://heitorserathiuk.github.io/curriculo/curriculo.html</loc>
 	<image:image>
 	<image:loc>https://heitorserathiuk.github.io/curriculo/assets/image/paperless.png</image:loc>
 	<image:title>Currículo Heitor Serathiuk - Paperless</image:title>
@@ -64,22 +64,22 @@
 	<image:loc>https://heitorserathiuk.github.io/curriculo/assets/image/icons/favicon-16x16.png</image:loc>
 	<image:title>Currículo Heitor Serathiuk - favicon-16x16</image:title>
 	</image:image>
-	<lastmod>2021-08-15T03:41:28+00:00</lastmod>
-	<priority>0.5</priority>
+	<lastmod>2021-08-18T03:41:28+00:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-	<loc>https://heitorserathiuk.github.io/curriculo/curriculo.html</loc>
-	<lastmod>2021-08-15T03:41:28+00:00</lastmod>
-	<priority>0.3</priority>
+	<loc>https://heitorserathiuk.github.io/curriculo/</loc>
+	<lastmod>2021-08-18T03:41:28+00:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
 	<loc>https://heitorserathiuk.github.io/curriculo/assets/pdf/Curriculo_Heitor_Serathiuk.pdf</loc>
-	<lastmod>2021-08-15T03:41:28+00:00</lastmod>
+	<lastmod>2021-08-18T03:41:28+00:00</lastmod>
 	<priority>0.1</priority>
 </url>
 <url>
 	<loc>https://heitorserathiuk.github.io/curriculo/assets/image/Curriculo_Heitor_Serathiuk.png</loc>
-	<lastmod>2021-08-15T03:41:28+00:00</lastmod>
+	<lastmod>2021-08-18T03:41:28+00:00</lastmod>
 	<priority>0.1</priority>
 </url>
 </urlset>
